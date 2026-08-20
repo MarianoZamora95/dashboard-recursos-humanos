@@ -1,21 +1,39 @@
 # Dashboard de Recursos Humanos
 
-Proyecto de análisis de datos de Recursos Humanos desarrollado a partir de una base de empleados. El objetivo es analizar la distribución del personal, los salarios, la formación académica, los cargos, las horas extras, la rotación y la distribución por edad.
+Proyecto de análisis de datos de Recursos Humanos desarrollado a partir de una base de empleados. El proyecto integra **SQL Server, Excel y Power BI** para explorar los datos, obtener indicadores y construir dashboards orientados al análisis de personal.
 
 ## Objetivo
 
-Analizar los datos de empleados para obtener indicadores relevantes y generar visualizaciones que permitan identificar patrones y características de la organización.
+Analizar la información de los empleados para identificar patrones y características relevantes de la organización, principalmente en relación con:
+
+- Distribución del personal por departamento.
+- Salarios y salarios promedio.
+- Cargos y niveles salariales.
+- Formación académica.
+- Horas extras y rotación.
+- Distribución de empleados por rango de edad.
 
 ## Herramientas utilizadas
 
-- SQL Server
-- Excel
-- Power BI
-- GitHub
+- **SQL Server:** exploración y análisis de los datos mediante consultas SQL.
+- **Microsoft Excel:** construcción de un dashboard con indicadores y gráficos.
+- **Power BI:** desarrollo de un dashboard interactivo para visualizar los principales resultados.
+- **GitHub:** documentación y publicación del proyecto.
 
 ## Análisis SQL
 
-Se utilizaron consultas SQL para explorar y analizar la información de los empleados antes de desarrollar los dashboards.
+Las consultas SQL se utilizaron como etapa inicial del análisis, permitiendo explorar la información de empleados antes de construir las visualizaciones.
+
+### Consulta principal
+
+La consulta utilizada para visualizar la tabla de empleados es:
+
+```sql
+SELECT *
+FROM Employees;
+```
+
+Esta consulta permite obtener la información completa de la tabla `Employees` y utilizarla como punto de partida para los análisis posteriores.
 
 ### Principales análisis realizados
 
@@ -26,70 +44,89 @@ Se utilizaron consultas SQL para explorar y analizar la información de los empl
 - Relación entre horas extras y rotación.
 - Distribución de empleados por rango de edad.
 
-## KPIs
+## KPIs principales
 
-El dashboard contiene los siguientes indicadores principales:
+El dashboard presenta los siguientes indicadores:
 
-- **Total de empleados:** 1.470
-- **Departamento con mayor cantidad de empleados:** Research & Development
-- **Cantidad de empleados del departamento principal:** 961
-- **Mayor salario promedio por departamento:** Sales
-- **Salario promedio máximo:** $6.959
-- **Formación académica predominante:** Life Sciences
-- **Cantidad de empleados con formación predominante:** 606
+| Indicador | Resultado |
+|---|---:|
+| Total de empleados | **1.470** |
+| Departamento con mayor cantidad de empleados | **Research & Development** |
+| Empleados del departamento principal | **961** |
+| Departamento con mayor salario promedio | **Sales** |
+| Mayor salario promedio por departamento | **$6.959** |
+| Formación académica predominante | **Life Sciences** |
+| Empleados con formación predominante | **606** |
 
-## Dashboard
+## Dashboards
 
-El proyecto cuenta con una versión desarrollada en Excel y otra en Power BI.
+El proyecto cuenta con dos versiones del dashboard: **Excel** y **Power BI**.
 
 ### Excel
 
-El dashboard permite visualizar los principales indicadores de Recursos Humanos mediante tarjetas y gráficos.
+El dashboard de Excel reúne los principales indicadores y visualizaciones del análisis en una única vista.
+
+Incluye:
+
+- Total de empleados.
+- Departamento principal.
+- Mayor salario promedio por departamento.
+- Formación académica predominante.
+- Empleados por departamento.
+- Salario promedio por departamento.
+- Formación académica.
+- Salario por cargo.
+- Horas extras vs. rotación.
+- Distribución por rango de edad.
 
 ### Power BI
 
-El dashboard en Power BI presenta los mismos análisis mediante visualizaciones interactivas.
+La versión en Power BI presenta los mismos análisis mediante visualizaciones interactivas, facilitando la exploración de los datos y la comparación entre diferentes dimensiones de Recursos Humanos.
 
 ## Visualizaciones
 
 ### Empleados por departamento
 
-Permite comparar la cantidad de empleados pertenecientes a Research & Development, Sales y Human Resources.
+Compara la cantidad de empleados de **Research & Development, Sales y Human Resources**. Research & Development es el departamento con mayor cantidad de empleados.
 
 ### Salario promedio por departamento
 
-Compara el salario promedio de los empleados según el departamento.
+Compara el salario promedio entre los departamentos y permite identificar a **Sales** como el departamento con mayor salario promedio.
 
 ### Formación académica
 
-Muestra la distribución de empleados según su campo de formación académica.
+Muestra la cantidad de empleados según su campo de formación. **Life Sciences** es la formación predominante.
 
 ### Salario por cargo
 
-Compara los salarios correspondientes a los diferentes cargos de la organización.
+Compara los salarios correspondientes a los diferentes cargos de la organización mediante un gráfico de barras.
 
-### Horas extras vs rotación
+### Horas extras vs. rotación
 
-Analiza la relación entre la realización de horas extras y la rotación de empleados.
+Compara la realización de horas extras con la situación de rotación de los empleados, permitiendo observar diferencias entre ambos grupos.
 
 ### Distribución por rango de edad
 
-Muestra cómo se distribuyen los empleados entre diferentes rangos de edad.
+Muestra la cantidad de empleados dentro de los diferentes rangos etarios definidos para el análisis.
 
 ## Conclusiones
 
 El análisis permite obtener una visión general de la estructura de Recursos Humanos de la organización.
 
-Research & Development concentra la mayor cantidad de empleados, mientras que Sales presenta el mayor salario promedio entre los departamentos analizados.
+- **Research & Development** concentra la mayor cantidad de empleados, con **961 personas**.
+- **Sales** presenta el mayor salario promedio entre los departamentos, con aproximadamente **$6.959**.
+- **Life Sciences** es el campo de formación académica predominante, con **606 empleados**.
+- El análisis de **horas extras y rotación** permite comparar el comportamiento de los empleados según la realización de horas extras.
+- La **distribución por rango de edad** permite identificar los grupos etarios con mayor concentración de empleados.
 
-Life Sciences es el campo de formación académica predominante.
+## Estructura del proyecto
 
-El análisis de horas extras y rotación permite observar diferencias en el comportamiento de los empleados según la realización de horas extras.
+El proyecto reúne el proceso completo de análisis de datos:
 
-La distribución por edad muestra la concentración de empleados en los distintos grupos etarios.
+**SQL Server → Exploración y consultas → Excel / Power BI → Visualización → Conclusiones**
 
 ## Autor
 
 **Mariano Zamora**
 
-Proyecto realizado como parte de mi portfolio de análisis de datos.
+Proyecto desarrollado como parte de mi portfolio de **análisis de datos**.
