@@ -30,10 +30,10 @@ La consulta utilizada para visualizar la tabla de empleados es:
 
 ```sql
 SELECT *
-FROM Employees;
+FROM Empleados;
 ```
 
-Esta consulta permite obtener la información completa de la tabla `Employees` y utilizarla como punto de partida para los análisis posteriores.
+Esta consulta permite obtener la información completa de la tabla de empleados y utilizarla como punto de partida para los análisis posteriores.
 
 ### Principales análisis realizados
 
@@ -121,19 +121,6 @@ GROUP BY EducationField
 ORDER BY Cantidad_Empleados DESC;
 ```
 
-### Salario por cargo
-
-Compara los salarios correspondientes a los diferentes cargos de la organización mediante un gráfico de barras.
-
-```sql
-SELECT JobRole,
-       AVG(MonthlyIncome) AS Salario_Promedio,
-       COUNT(*) AS Cantidad_Empleados
-FROM Empleados
-GROUP BY JobRole
-ORDER BY Salario_Promedio DESC;
-```
-
 ### Horas extras vs. rotación
 
 Compara la realización de horas extras con la situación de rotación de los empleados, permitiendo observar diferencias entre ambos grupos.
@@ -145,6 +132,19 @@ SELECT OverTime,
 FROM Empleados
 GROUP BY OverTime, Attrition
 ORDER BY OverTime, Attrition;
+```
+
+### Salario por cargo
+
+Compara los salarios correspondientes a los diferentes cargos de la organización mediante un gráfico de barras.
+
+```sql
+SELECT JobRole,
+       AVG(MonthlyIncome) AS Salario_Promedio,
+       COUNT(*) AS Cantidad_Empleados
+FROM Empleados
+GROUP BY JobRole
+ORDER BY Salario_Promedio DESC;
 ```
 
 ### Distribución por rango de edad
