@@ -89,25 +89,87 @@ La versión en Power BI presenta los mismos análisis mediante visualizaciones i
 
 Compara la cantidad de empleados de **Research & Development, Sales y Human Resources**. Research & Development es el departamento con mayor cantidad de empleados.
 
+```sql
+Select Department,
+       COUNT(*) AS Cantidad_Empleados
+From Empleados
+GROUP BY Department
+ORDER BY Cantidad_Empleados DESC;
+```
+
 ### Salario promedio por departamento
 
 Compara el salario promedio entre los departamentos y permite identificar a **Sales** como el departamento con mayor salario promedio.
+
+```sql
+SELECT Department,
+       AVG(MonthlyIncome) AS Salario_Promedio
+FROM Empleados
+GROUP BY Department
+ORDER BY Salario_Promedio DESC;
+```
 
 ### Formación académica
 
 Muestra la cantidad de empleados según su campo de formación. **Life Sciences** es la formación predominante.
 
+```sql
+SELECT EducationField,
+       COUNT(*) AS Cantidad_Empleados
+FROM Empleados
+GROUP BY EducationField
+ORDER BY Cantidad_Empleados DESC;
+```
+
 ### Salario por cargo
 
 Compara los salarios correspondientes a los diferentes cargos de la organización mediante un gráfico de barras.
+
+```sql
+SELECT JobRole,
+       AVG(MonthlyIncome) AS Salario_Promedio,
+       COUNT(*) AS Cantidad_Empleados
+FROM Empleados
+GROUP BY JobRole
+ORDER BY Salario_Promedio DESC;
+```
 
 ### Horas extras vs. rotación
 
 Compara la realización de horas extras con la situación de rotación de los empleados, permitiendo observar diferencias entre ambos grupos.
 
+```sql
+SELECT OverTime,
+       Attrition,
+       COUNT(*) AS Cantidad_Empleados
+FROM Empleados
+GROUP BY OverTime, Attrition
+ORDER BY OverTime, Attrition;
+```
+
 ### Distribución por rango de edad
 
 Muestra la cantidad de empleados dentro de los diferentes rangos etarios definidos para el análisis.
+
+```sql
+SELECT
+    CASE
+        WHEN Age BETWEEN 18 AND 25 THEN '18-25'
+        WHEN Age BETWEEN 26 AND 35 THEN '26-35'
+        WHEN Age BETWEEN 36 AND 45 THEN '36-45'
+        ELSE '46+'
+    END AS Rango_Edad,
+    COUNT(*) AS Cantidad
+FROM Empleados
+GROUP BY
+    CASE
+        WHEN Age BETWEEN 18 AND 25 THEN '18-25'
+        WHEN Age BETWEEN 26 AND 35 THEN '26-35'
+        WHEN Age BETWEEN 36 AND 45 THEN '36-45'
+        ELSE '46+'
+    END
+ORDER BY Rango_Edad;
+```
 
 ## Conclusiones
 
