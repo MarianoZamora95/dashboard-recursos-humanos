@@ -83,6 +83,8 @@ Incluye:
 
 La versión en Power BI presenta los mismos análisis mediante visualizaciones interactivas, facilitando la exploración de los datos y la comparación entre diferentes dimensiones de Recursos Humanos.
 
+![Dashboard de Recursos Humanos en Power BI](images/dashboard-powerbi.png)
+
 ## Visualizaciones
 
 ### Empleados por departamento
