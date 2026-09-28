@@ -126,6 +126,7 @@ FROM Empleados
 GROUP BY EducationField
 ORDER BY Cantidad_Empleados DESC;
 ```
+<img width="1366" height="768" alt="Formación académica" src="https://github.com/user-attachments/assets/852211f3-2fc3-4eb6-a9b6-79d023052063" />
 
 ### Horas extras vs. rotación
 
@@ -139,6 +140,7 @@ FROM Empleados
 GROUP BY OverTime, Attrition
 ORDER BY OverTime, Attrition;
 ```
+<img width="1366" height="768" alt="Horas extras vs rotación" src="https://github.com/user-attachments/assets/9344811a-db54-4d76-899c-be8fb22d9b20" />
 
 ### Salario por cargo
 
@@ -152,6 +154,7 @@ FROM Empleados
 GROUP BY JobRole
 ORDER BY Salario_Promedio DESC;
 ```
+<img width="1366" height="768" alt="Salario por cargo" src="https://github.com/user-attachments/assets/60ef9a74-1a89-44dd-8f5a-84e03e044412" />
 
 ### Distribución por rango de edad
 
@@ -176,6 +179,7 @@ GROUP BY
     END
 ORDER BY Rango_Edad;
 ```
+<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/6fdff44d-f940-40ad-a749-779d25a55ee5" />
 
 ## Conclusiones
 
