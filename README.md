@@ -98,7 +98,7 @@ From Empleados
 GROUP BY Department
 ORDER BY Cantidad_Empleados DESC;
 
-
+![Empleados por departamento](Empleados%20por%20departamento.png)
 
 ```
 
