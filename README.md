@@ -102,7 +102,8 @@ ORDER BY Cantidad_Empleados DESC;
 ```
 <img width="1366" height="768" alt="Empleados por departamento" src="https://github.com/user-attachments/assets/ac50c07b-404d-45ee-9417-9f9816a46ca6" />
 
-<img width="1366" height="768" alt="Empleados por Departamento" src="https://github.com/user-attachments/assets/d6213924-edd9-41d2-a7a5-5b7ef5359570" />
+<img width="1366" height="768" alt="Empleados por Departamento" src="https://github.com/user-attachments/assets/0727b9ad-9e6d-4815-9488-00ccae97706d" />
+
 
 
 ### Salario promedio por departamento
@@ -118,7 +119,8 @@ ORDER BY Salario_Promedio DESC;
 ```
 <img width="1366" height="768" alt="Salario promedio por departamento" src="https://github.com/user-attachments/assets/3c2af002-8e2a-43d1-9a30-1b531c2037eb" />
 
-<img width="1366" height="768" alt="Salario promedio por Departamento" src="https://github.com/user-attachments/assets/8db56edf-41bd-4a51-b20b-08c0795654eb" />
+<img width="1366" height="768" alt="Salario promedio por Departamento" src="https://github.com/user-attachments/assets/c2c65749-9dff-4101-ba42-47e3f30f72c3" />
+
 
 
 ### Formación académica
@@ -134,7 +136,8 @@ ORDER BY Cantidad_Empleados DESC;
 ```
 <img width="1366" height="768" alt="Formación académica" src="https://github.com/user-attachments/assets/852211f3-2fc3-4eb6-a9b6-79d023052063" />
 
-<img width="1366" height="768" alt="Formación académica" src="https://github.com/user-attachments/assets/e53d3fa3-bbaa-4f60-afac-80093333ee6c" />
+<img width="1366" height="768" alt="Formación académica" src="https://github.com/user-attachments/assets/52dcde7d-7c57-4ea4-8a8a-fc00df3c4838" />
+
 
 
 ### Horas extras vs. rotación
@@ -151,7 +154,8 @@ ORDER BY OverTime, Attrition;
 ```
 <img width="1366" height="768" alt="Horas extras vs rotación" src="https://github.com/user-attachments/assets/9344811a-db54-4d76-899c-be8fb22d9b20" />
 
-<img width="1366" height="768" alt="Horas extras vs rotación" src="https://github.com/user-attachments/assets/7144812c-393c-4a6c-8653-b747b0f4ee97" />
+<img width="1366" height="768" alt="Horas extras vs rotación" src="https://github.com/user-attachments/assets/cfc164f5-a676-4f71-b95c-35b03101bda4" />
+
 
 
 ### Salario por cargo
@@ -168,7 +172,8 @@ ORDER BY Salario_Promedio DESC;
 ```
 <img width="1366" height="768" alt="Salario por cargo" src="https://github.com/user-attachments/assets/60ef9a74-1a89-44dd-8f5a-84e03e044412" />
 
-<img width="1366" height="768" alt="Salario por cargo" src="https://github.com/user-attachments/assets/54563543-e416-4aaf-84a5-70466c2b5f58" />
+<img width="1366" height="768" alt="Salario por cargo" src="https://github.com/user-attachments/assets/a7f3eb9e-a0bf-44ae-a8b8-0dace3000ffd" />
+
 
 
 ### Distribución por rango de edad
@@ -198,7 +203,8 @@ ORDER BY Rango_Edad;
 
 <img width="1366" height="768" alt="Distribución por rango de edad 2" src="https://github.com/user-attachments/assets/e132a4d3-7c28-4622-a46f-ab90d344a557" />
 
-<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/742bbce5-c770-420a-a18c-75f0ab42e89b" />
+<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/e6a2377a-1d94-4caf-8c1c-a6bdd1bd2624" />
+
 
 
 
