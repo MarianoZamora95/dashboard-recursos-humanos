@@ -113,6 +113,7 @@ FROM Empleados
 GROUP BY Department
 ORDER BY Salario_Promedio DESC;
 ```
+<img width="1366" height="768" alt="Salario promedio por departamento" src="https://github.com/user-attachments/assets/3c2af002-8e2a-43d1-9a30-1b531c2037eb" />
 
 ### Formación académica
 
