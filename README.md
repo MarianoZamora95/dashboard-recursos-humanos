@@ -98,7 +98,7 @@ From Empleados
 GROUP BY Department
 ORDER BY Cantidad_Empleados DESC;
 
-<img width="1366" height="768" alt="Empleados por departamento" src="https://github.com/user-attachments/assets/6a722997-de37-44cf-8c04-03c5512dd7fa" />
+![Empleados por departamento](https://github.com/user-attachments/assets/32ecbe38-7f82-4273-9f78-faa743d45f2e)
 
 
 ```
