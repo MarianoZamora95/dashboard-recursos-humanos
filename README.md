@@ -98,9 +98,9 @@ From Empleados
 GROUP BY Department
 ORDER BY Cantidad_Empleados DESC;
 
-![Empleados por departamento](Empleados%20por%20departamento.png)
 
 ```
+<img width="1366" height="768" alt="Empleados por departamento" src="https://github.com/user-attachments/assets/ac50c07b-404d-45ee-9417-9f9816a46ca6" />
 
 ### Salario promedio por departamento
 
