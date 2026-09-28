@@ -194,11 +194,12 @@ GROUP BY
     END
 ORDER BY Rango_Edad;
 ```
-<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/6fdff44d-f940-40ad-a749-779d25a55ee5" />
+<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/a07b2458-658f-49d2-98ff-c8cf4cf0e17c" />
 
-<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/d0557add-c02f-4789-910a-419d724884f3" />
+<img width="1366" height="768" alt="Distribución por rango de edad 2" src="https://github.com/user-attachments/assets/e132a4d3-7c28-4622-a46f-ab90d344a557" />
 
-<img width="1366" height="768" alt="Distribución por rango de edad 2" src="https://github.com/user-attachments/assets/c713bd4d-b776-495a-af20-36bf0dbe430d" />
+<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/742bbce5-c770-420a-a18c-75f0ab42e89b" />
+
 
 
 ## Conclusiones
