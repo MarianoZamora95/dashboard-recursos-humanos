@@ -102,7 +102,6 @@ ORDER BY Cantidad_Empleados DESC;
 ```
 <img width="1366" height="768" alt="Empleados por departamento" src="https://github.com/user-attachments/assets/ac50c07b-404d-45ee-9417-9f9816a46ca6" />
 
-
 <img width="1366" height="768" alt="Empleados por Departamento" src="https://github.com/user-attachments/assets/d6213924-edd9-41d2-a7a5-5b7ef5359570" />
 
 
@@ -119,6 +118,9 @@ ORDER BY Salario_Promedio DESC;
 ```
 <img width="1366" height="768" alt="Salario promedio por departamento" src="https://github.com/user-attachments/assets/3c2af002-8e2a-43d1-9a30-1b531c2037eb" />
 
+<img width="1366" height="768" alt="Salario promedio por Departamento" src="https://github.com/user-attachments/assets/8db56edf-41bd-4a51-b20b-08c0795654eb" />
+
+
 ### Formación académica
 
 Muestra la cantidad de empleados según su campo de formación. **Life Sciences** es la formación predominante.
@@ -131,6 +133,9 @@ GROUP BY EducationField
 ORDER BY Cantidad_Empleados DESC;
 ```
 <img width="1366" height="768" alt="Formación académica" src="https://github.com/user-attachments/assets/852211f3-2fc3-4eb6-a9b6-79d023052063" />
+
+<img width="1366" height="768" alt="Formación académica" src="https://github.com/user-attachments/assets/e53d3fa3-bbaa-4f60-afac-80093333ee6c" />
+
 
 ### Horas extras vs. rotación
 
@@ -146,6 +151,9 @@ ORDER BY OverTime, Attrition;
 ```
 <img width="1366" height="768" alt="Horas extras vs rotación" src="https://github.com/user-attachments/assets/9344811a-db54-4d76-899c-be8fb22d9b20" />
 
+<img width="1366" height="768" alt="Horas extras vs rotación" src="https://github.com/user-attachments/assets/7144812c-393c-4a6c-8653-b747b0f4ee97" />
+
+
 ### Salario por cargo
 
 Compara los salarios correspondientes a los diferentes cargos de la organización mediante un gráfico de barras.
@@ -159,6 +167,9 @@ GROUP BY JobRole
 ORDER BY Salario_Promedio DESC;
 ```
 <img width="1366" height="768" alt="Salario por cargo" src="https://github.com/user-attachments/assets/60ef9a74-1a89-44dd-8f5a-84e03e044412" />
+
+<img width="1366" height="768" alt="Salario por cargo" src="https://github.com/user-attachments/assets/54563543-e416-4aaf-84a5-70466c2b5f58" />
+
 
 ### Distribución por rango de edad
 
@@ -184,6 +195,9 @@ GROUP BY
 ORDER BY Rango_Edad;
 ```
 <img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/6fdff44d-f940-40ad-a749-779d25a55ee5" />
+
+<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/0613363c-f4c2-4088-a9e8-1cbcc9c3627b" />
+
 
 ## Conclusiones
 
