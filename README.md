@@ -196,7 +196,9 @@ ORDER BY Rango_Edad;
 ```
 <img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/6fdff44d-f940-40ad-a749-779d25a55ee5" />
 
-<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/0613363c-f4c2-4088-a9e8-1cbcc9c3627b" />
+<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/d0557add-c02f-4789-910a-419d724884f3" />
+
+<img width="1366" height="768" alt="Distribución por rango de edad 2" src="https://github.com/user-attachments/assets/c713bd4d-b776-495a-af20-36bf0dbe430d" />
 
 
 ## Conclusiones
