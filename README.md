@@ -102,6 +102,9 @@ ORDER BY Cantidad_Empleados DESC;
 ```
 <img width="1366" height="768" alt="Empleados por departamento" src="https://github.com/user-attachments/assets/ac50c07b-404d-45ee-9417-9f9816a46ca6" />
 
+<img width="1366" height="768" alt="Empleados por Departamento" src="https://github.com/user-attachments/assets/d6213924-edd9-41d2-a7a5-5b7ef5359570" />
+
+
 ### Salario promedio por departamento
 
 Compara el salario promedio entre los departamentos y permite identificar a **Sales** como el departamento con mayor salario promedio.
