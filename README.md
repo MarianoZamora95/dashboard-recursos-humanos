@@ -98,7 +98,6 @@ From Empleados
 GROUP BY Department
 ORDER BY Cantidad_Empleados DESC;
 
-![Empleados por departamento](https://github.com/user-attachments/assets/32ecbe38-7f82-4273-9f78-faa743d45f2e)
 
 
 ```
