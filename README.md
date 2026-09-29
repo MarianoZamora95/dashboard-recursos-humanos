@@ -97,7 +97,7 @@ La versión en Power BI presenta los mismos análisis mediante visualizaciones i
 
 ### Empleados por departamento
 
-Compara la cantidad de empleados de por departamento. Research & Development es el departamento con mayor cantidad de empleados.
+Compara la cantidad de empleados por departamento. Research & Development es el departamento con mayor cantidad de empleados.
 
 ```sql
 Select Department,
