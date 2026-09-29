@@ -116,7 +116,7 @@ ORDER BY Cantidad_Empleados DESC;
 
 ### Salario promedio por departamento
 
-Compara el salario promedio entre los departamentos y permite identificar a **Sales** como el departamento con mayor salario promedio.
+Compara el salario promedio entre los departamentos. **Sales** presenta el mayor salario promedio, con aproximadamente **$6.959**.
 
 ```sql
 SELECT Department,
