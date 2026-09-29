@@ -133,7 +133,7 @@ ORDER BY Salario_Promedio DESC;
 
 ### Formación académica
 
-Muestra la cantidad de empleados según su campo de formación. **Life Sciences** es la formación predominante.
+Muestra la cantidad de empleados según su campo de formación. **Life Sciences** es la formación predominante, con **606 empleados**.
 
 ```sql
 SELECT EducationField,
