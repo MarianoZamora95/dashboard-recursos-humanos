@@ -215,16 +215,10 @@ ORDER BY Rango_Edad;
 
 
 
-
 ## Conclusiones
 
-El análisis permite obtener una visión general de la estructura de Recursos Humanos de la organización.
+La plantilla está concentrada principalmente en Research & Development y presenta una fuerte presencia de empleados provenientes de las áreas de Life Sciences y Medical. Sales presenta el mayor salario promedio entre los departamentos. La distribución etaria muestra una mayor concentración de empleados entre los 26 y 45 años.
 
-- **Research & Development** concentra la mayor cantidad de empleados, con **961 personas**.
-- **Sales** presenta el mayor salario promedio entre los departamentos, con aproximadamente **$6.959**.
-- **Life Sciences** es el campo de formación académica predominante, con **606 empleados**.
-- El análisis de **horas extras y rotación** permite comparar el comportamiento de los empleados según la realización de horas extras.
-- La **distribución por rango de edad** permite identificar los grupos etarios con mayor concentración de empleados.
 
 ## Estructura del proyecto
 
