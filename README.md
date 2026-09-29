@@ -215,7 +215,7 @@ ORDER BY Rango_Edad;
 
 
 
-## Conclusiones
+## Conclusión general
 
 La plantilla está concentrada principalmente en Research & Development y presenta una fuerte presencia de empleados provenientes de las áreas de Life Sciences y Medical. Sales presenta el mayor salario promedio entre los departamentos. La distribución etaria muestra una mayor concentración de empleados entre los 26 y 45 años.
 
