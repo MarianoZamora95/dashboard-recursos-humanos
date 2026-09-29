@@ -150,7 +150,7 @@ ORDER BY Cantidad_Empleados DESC;
 
 ### Horas extras vs. rotación
 
-Compara la realización de horas extras con la situación de rotación de los empleados, permitiendo observar diferencias entre ambos grupos.
+Compara la realización de horas extras con la rotación de los empleados, permitiendo analizar diferencias en la distribución de empleados según ambas variables.
 
 ```sql
 SELECT OverTime,
@@ -168,7 +168,7 @@ ORDER BY OverTime, Attrition;
 
 ### Salario por cargo
 
-Compara los salarios correspondientes a los diferentes cargos de la organización mediante un gráfico de barras.
+Compara el salario promedio de los diferentes cargos de la organización mediante un gráfico de barras.
 
 ```sql
 SELECT JobRole,
@@ -186,7 +186,7 @@ ORDER BY Salario_Promedio DESC;
 
 ### Distribución por rango de edad
 
-Muestra la cantidad de empleados dentro de los diferentes rangos etarios definidos para el análisis.
+Muestra la cantidad de empleados según los diferentes rangos de edad definidos para el análisis.
 
 ```sql
 SELECT
