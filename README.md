@@ -111,7 +111,7 @@ ORDER BY Cantidad_Empleados DESC;
 ```
 <img src="Consultas SQL/Empleados por departamento.png" alt="Empleados por departamento" width="100%">
 
-<img src="Gráficos Excel/Empleados por departamento.png" alt="Empleados por departamento" width="100%">
+<img src="Gráficos Excel/Empleados por Departamento.png" alt="Empleados por departamento" width="100%">
 
 
 
@@ -128,7 +128,7 @@ ORDER BY Salario_Promedio DESC;
 ```
 <img src="Consultas SQL/Salario promedio por departamento.png" alt="Salario promedio por departamento" width="100%">
 
-<img src="Gráficos Excel/Salario promedio por departamento.png" alt="Salario promedio por departamento" width="100%">
+<img src="Gráficos Excel/Salario promedio por Departamento.png" alt="Salario promedio por departamento" width="100%">
 
 
 
