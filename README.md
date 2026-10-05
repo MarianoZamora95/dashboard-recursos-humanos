@@ -109,9 +109,9 @@ ORDER BY Cantidad_Empleados DESC;
 
 
 ```
-<img width="1366" height="768" alt="Empleados por departamento" src="https://github.com/user-attachments/assets/ac50c07b-404d-45ee-9417-9f9816a46ca6" />
+<img src="Consultas SQL/Empleados por departamento.png" alt="Empleados por departamento" width="100%">
 
-<img width="1366" height="768" alt="Empleados por Departamento" src="https://github.com/user-attachments/assets/0727b9ad-9e6d-4815-9488-00ccae97706d" />
+<img src="Gráficos Excel/Empleados por departamento.png" alt="Empleados por departamento" width="100%">
 
 
 
@@ -126,9 +126,9 @@ FROM Empleados
 GROUP BY Department
 ORDER BY Salario_Promedio DESC;
 ```
-<img width="1366" height="768" alt="Salario promedio por departamento" src="https://github.com/user-attachments/assets/3c2af002-8e2a-43d1-9a30-1b531c2037eb" />
+<img src="Consultas SQL/Salario promedio por departamento.png" alt="Salario promedio por departamento" width="100%">
 
-<img width="1366" height="768" alt="Salario promedio por Departamento" src="https://github.com/user-attachments/assets/c2c65749-9dff-4101-ba42-47e3f30f72c3" />
+<img src="Gráficos Excel/Salario promedio por departamento.png" alt="Salario promedio por departamento" width="100%">
 
 
 
@@ -143,9 +143,9 @@ FROM Empleados
 GROUP BY EducationField
 ORDER BY Cantidad_Empleados DESC;
 ```
-<img width="1366" height="768" alt="Formación académica" src="https://github.com/user-attachments/assets/852211f3-2fc3-4eb6-a9b6-79d023052063" />
+<img src="Consultas SQL/Formación académica.png" alt="Formación académica" width="100%">
 
-<img width="1366" height="768" alt="Formación académica" src="https://github.com/user-attachments/assets/52dcde7d-7c57-4ea4-8a8a-fc00df3c4838" />
+<img src="Gráficos Excel/Formación académica.png" alt="Formación académica" width="100%">
 
 
 
@@ -161,9 +161,9 @@ FROM Empleados
 GROUP BY OverTime, Attrition
 ORDER BY OverTime, Attrition;
 ```
-<img width="1366" height="768" alt="Horas extras vs rotación" src="https://github.com/user-attachments/assets/9344811a-db54-4d76-899c-be8fb22d9b20" />
+<img src="Consultas SQL/Horas extras vs rotación.png" alt="Horas extras vs rotación" width="100%">
 
-<img width="1366" height="768" alt="Horas extras vs rotación" src="https://github.com/user-attachments/assets/cfc164f5-a676-4f71-b95c-35b03101bda4" />
+<img src="Gráficos Excel/Horas extras vs rotación.png" alt="Horas extras vs rotación" width="100%">
 
 
 
@@ -179,9 +179,9 @@ FROM Empleados
 GROUP BY JobRole
 ORDER BY Salario_Promedio DESC;
 ```
-<img width="1366" height="768" alt="Salario por cargo" src="https://github.com/user-attachments/assets/60ef9a74-1a89-44dd-8f5a-84e03e044412" />
+<img src="Consultas SQL/Salario por cargo.png" alt="Salario por cargo" width="100%">
 
-<img width="1366" height="768" alt="Salario por cargo" src="https://github.com/user-attachments/assets/a7f3eb9e-a0bf-44ae-a8b8-0dace3000ffd" />
+<img src="Gráficos Excel/Salario por cargo.png" alt="Salario por cargo" width="100%">
 
 
 
@@ -208,11 +208,11 @@ GROUP BY
     END
 ORDER BY Rango_Edad;
 ```
-<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/a07b2458-658f-49d2-98ff-c8cf4cf0e17c" />
+<img src="Consultas SQL/Distribución por rango de edad.png" alt="Distribución por rango de edad" width="100%">
 
-<img width="1366" height="768" alt="Distribución por rango de edad 2" src="https://github.com/user-attachments/assets/e132a4d3-7c28-4622-a46f-ab90d344a557" />
+<img src="Consultas SQL/Distribución por rango de edad 2.png" alt="Distribución por rango de edad 2" width="100%">
 
-<img width="1366" height="768" alt="Distribución por rango de edad" src="https://github.com/user-attachments/assets/e6a2377a-1d94-4caf-8c1c-a6bdd1bd2624" />
+<img src="Gráficos Excel/Distribución por rango de edad.png" alt="Distribución por rango de edad" width="100%">
 
 
 
