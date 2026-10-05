@@ -82,9 +82,10 @@ Incluye:
 - Horas extras vs. rotación.
 - Distribución por rango de edad.
 
-<img width="1366" height="768" alt="Dashboard Recursos Humanos" src="https://github.com/user-attachments/assets/02a1f64e-0a82-4d1e-b8eb-a91bab8568b7" />
+<img src="Gráficos Excel/Dashboard_Recursos_Humanos.png" alt="Dashboard Recursos Humanos" width="100%">
 
-<img width="1366" height="768" alt="Dashboard Recursos Humanos 2" src="https://github.com/user-attachments/assets/81768442-eec5-4ee6-9cdb-437df5e1afa2" />
+<img src="Gráficos Excel/Dashboard_Recursos_Humanos_2.png" alt="Dashboard Recursos Humanos 2" width="100%">
+
 
 
 ### Power BI
