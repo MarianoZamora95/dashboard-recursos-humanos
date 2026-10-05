@@ -33,7 +33,7 @@ SELECT *
 FROM Empleados;
 ```
 
-<img width="1366" height="768" alt="Tabla de Empleados" src="https://github.com/user-attachments/assets/30da7c9f-1820-4169-b084-4d78d71ae7f2" />
+<img src="Consultas SQL/Tabla de Empleados.png" alt="Tabla de Empleados" width="100%">
 
 
 Esta consulta permite obtener la información completa de la tabla de empleados y utilizarla como punto de partida para los análisis posteriores.
