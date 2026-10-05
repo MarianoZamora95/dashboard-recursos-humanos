@@ -82,9 +82,9 @@ Incluye:
 - Horas extras vs. rotación.
 - Distribución por rango de edad.
 
-<img src="Gráficos Excel/Dashboard Recursos Humanos.png" alt="Dashboard Recursos Humanos" width="100%">
+<img src="Gráficos Excel/Dashboard_Recursos_Humanos.png" alt="Dashboard Recursos Humanos" width="100%">
 
-<img src="Gráficos Excel/Dashboard Recursos Humanos 2.png" alt="Dashboard Recursos Humanos 2" width="100%">
+<img src="Gráficos Excel/Dashboard_Recursos_Humanos_2.png" alt="Dashboard Recursos Humanos 2" width="100%">
 
 
 
@@ -109,9 +109,9 @@ ORDER BY Cantidad_Empleados DESC;
 
 
 ```
-<img src="Consultas SQL/Empleados por departamento.png" alt="Empleados por departamento" width="100%">
+<img src="Consultas SQL/Empleados_por_departamento.png" alt="Empleados por departamento" width="100%">
 
-<img src="Gráficos Excel/Empleados por Departamento.png" alt="Empleados por departamento" width="100%">
+<img src="Gráficos Excel/Empleados_por_departamento.png" alt="Empleados por departamento" width="100%">
 
 
 
@@ -126,9 +126,9 @@ FROM Empleados
 GROUP BY Department
 ORDER BY Salario_Promedio DESC;
 ```
-<img src="Consultas SQL/Salario promedio por departamento.png" alt="Salario promedio por departamento" width="100%">
+<img src="Consultas SQL/Salario_promedio_por_departamento.png" alt="Salario promedio por departamento" width="100%">
 
-<img src="Gráficos Excel/Salario promedio por Departamento.png" alt="Salario promedio por departamento" width="100%">
+<img src="Gráficos Excel/Salario_promedio_por_departamento.png" alt="Salario promedio por departamento" width="100%">
 
 
 
@@ -143,9 +143,9 @@ FROM Empleados
 GROUP BY EducationField
 ORDER BY Cantidad_Empleados DESC;
 ```
-<img src="Consultas SQL/Formación académica.png" alt="Formación académica" width="100%">
+<img src="Consultas SQL/Formación_académica.png" alt="Formación académica" width="100%">
 
-<img src="Gráficos Excel/Formación académica.png" alt="Formación académica" width="100%">
+<img src="Gráficos Excel/Formación_académica.png" alt="Formación académica" width="100%">
 
 
 
@@ -161,9 +161,9 @@ FROM Empleados
 GROUP BY OverTime, Attrition
 ORDER BY OverTime, Attrition;
 ```
-<img src="Consultas SQL/Horas extras vs rotación.png" alt="Horas extras vs rotación" width="100%">
+<img src="Consultas SQL/Horas_extras_vs_rotación.png" alt="Horas extras vs rotación" width="100%">
 
-<img src="Gráficos Excel/Horas extras vs rotación.png" alt="Horas extras vs rotación" width="100%">
+<img src="Gráficos Excel/Horas_extras_vs_rotación.png" alt="Horas extras vs rotación" width="100%">
 
 
 
@@ -179,9 +179,9 @@ FROM Empleados
 GROUP BY JobRole
 ORDER BY Salario_Promedio DESC;
 ```
-<img src="Consultas SQL/Salario por cargo.png" alt="Salario por cargo" width="100%">
+<img src="Consultas SQL/Salario_por_cargo.png" alt="Salario por cargo" width="100%">
 
-<img src="Gráficos Excel/Salario por cargo.png" alt="Salario por cargo" width="100%">
+<img src="Gráficos Excel/Salario_por_cargo.png" alt="Salario por cargo" width="100%">
 
 
 
@@ -208,11 +208,11 @@ GROUP BY
     END
 ORDER BY Rango_Edad;
 ```
-<img src="Consultas SQL/Distribución por rango de edad.png" alt="Distribución por rango de edad" width="100%">
+<img src="Consultas SQL/Distribución_por_rango_de_edad.png" alt="Distribución por rango de edad" width="100%">
 
-<img src="Consultas SQL/Distribución por rango de edad 2.png" alt="Distribución por rango de edad 2" width="100%">
+<img src="Consultas SQL/Distribución_por_rango_de_edad_2.png" alt="Distribución por rango de edad 2" width="100%">
 
-<img src="Gráficos Excel/Distribución por rango de edad.png" alt="Distribución por rango de edad" width="100%">
+<img src="Gráficos Excel/Distribución_por_rango_de_edad.png" alt="Distribución por rango de edad" width="100%">
 
 
 
